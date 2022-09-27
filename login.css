@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+
+}
+form{
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+input{
+    display: block;
+    width: 400px;
+    height:50px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    background: transparent;
+
+}
+::placeholder{
+    color: brown;
+}
+button{
+    color:whitesmoke;
+    background: black;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-display: center;
+
+}
+button:hover{
+    color: black;
+    background: peru;
+
+}
+
+.top-clothes {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 4em;
+    margin-bottom: 3em;
+    margin-top: 2em;
+}
+.gallery-item{
+    padding: .7em;
+    border: 1px solid rgb(178, 176, 176);
+}
+.message{
+    margin: 5px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: brown;
+    color: blanchedalmond;
+    font-size: 20px;
+}
